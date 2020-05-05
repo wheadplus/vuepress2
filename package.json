@@ -1,0 +1,13 @@
+{
+  "name": "_book",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wheadplus/_gitbook.git",
+  "author": "wuhx <benjiaminwu@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  }
+}
